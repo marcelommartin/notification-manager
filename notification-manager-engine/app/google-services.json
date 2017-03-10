@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "585354264066",
+    "firebase_url": "https://notification-manager-a274c.firebaseio.com",
+    "project_id": "notification-manager-a274c",
+    "storage_bucket": "notification-manager-a274c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585354264066:android:16e6a4d49d93dd52",
+        "android_client_info": {
+          "package_name": "br.mmartin.notificationmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585354264066-8tk929f994rihus00o6pgleffjh1gon4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaXeSRv34cowSSbO66uEnkL39VPd03gMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
