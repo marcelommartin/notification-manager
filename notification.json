@@ -1,0 +1,26 @@
+{
+numbers:[
+	{	
+		number:"991341592",
+		rules:[1,2]
+	},
+	{	
+		number:"991346199",
+		rules:[1,2]
+	}
+],
+rules:[
+	{
+		1: {		
+			sTime: ,
+			eTime: ,
+			effects:[1,2,3]
+		},
+		2: {		
+			sTime: ,
+			eTime: ,
+			effects:[1,2,3]
+		}
+	}
+]
+}
