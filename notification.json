@@ -1,26 +1,15 @@
 {
-numbers:[
-	{	
-		number:"991341592",
-		rules:[1,2]
-	},
-	{	
-		number:"991346199",
-		rules:[1,2]
-	}
-],
-rules:[
-	{
-		1: {		
-			sTime: ,
-			eTime: ,
-			effects:[1,2,3]
-		},
-		2: {		
-			sTime: ,
-			eTime: ,
-			effects:[1,2,3]
-		}
-	}
-]
+  "numbers" : {
+    "35991341592" : [ 1, 2 ],
+    "35991346199" : [ 1, 2 ]
+  },
+  "rules" : [ null, {
+    "eTime" : "09:00",
+    "name " : "Rule 1",
+    "sTime" : "08:00"
+  }, {
+    "eTime" : "11:00",
+    "name" : "Rule 2",
+    "sTime" : "10:00"
+  } ]
 }
