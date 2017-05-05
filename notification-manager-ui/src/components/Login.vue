@@ -1,7 +1,7 @@
 <template>
   <div class="login">          
-      <!-- Google sign-in holder -->
-      <!--<div class="g-signin2" data-onsuccess="onSignIn"></div>-->
+      <!-- Google sign-in holder -->            
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
- 
+  <div id="app">    
+      <h1>Hello</h1>
   </div>
 </template>
 
@@ -8,20 +8,6 @@
 export default {
   name: 'app'
 }
-
-import Firebase from 'firebase'
-
-let config = {
-    apiKey: "AIzaSyAmkmjZgfQtn5ZzzvCJ02OZkvI9Bln3mvo",
-    authDomain: "notification-manager-a274c.firebaseapp.com",
-    databaseURL: "https://notification-manager-a274c.firebaseio.com",
-    projectId: "notification-manager-a274c",
-    storageBucket: "notification-manager-a274c.appspot.com",
-    messagingSenderId: "585354264066"
-  };
-  
-let app = Firebase.initializeApp(config)
-let db = app.database()
 
 </script>
 
