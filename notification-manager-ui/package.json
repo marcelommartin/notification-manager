@@ -1,7 +1,7 @@
 {
   "name": "notification-manager-ui",
   "version": "1.0.0",
-  "description": "Notification Manager administration UI",
+  "description": "A Vue.js project",
   "author": "Marcelo Marcatto Martin",
   "private": true,
   "scripts": {
@@ -10,10 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "firebase": "^3.9.0",
     "vue": "^2.2.6",
-    "vue-router": "^2.3.1",
-    "vuefire": "^1.4.2"
+    "vue-router": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

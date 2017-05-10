@@ -1,6 +1,6 @@
 # notification-manager-ui
 
-> Notification Manager administration UI
+> A Vue.js project
 
 ## Build Setup
 
