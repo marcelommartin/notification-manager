@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import firebase from "firebase";
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -13,3 +15,13 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+var config = {
+  apiKey: "AIzaSyAmkmjZgfQtn5ZzzvCJ02OZkvI9Bln3mvo",
+  authDomain: "notification-manager-a274c.firebaseapp.com",
+  databaseURL: "https://notification-manager-a274c.firebaseio.com",
+  projectId: "notification-manager-a274c",
+  storageBucket: "notification-manager-a274c.appspot.com",
+  messagingSenderId: "585354264066"
+};
+firebase.initializeApp(config);
