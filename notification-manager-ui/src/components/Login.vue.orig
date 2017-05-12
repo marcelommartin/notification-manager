@@ -1,16 +1,20 @@
 <template>
   <div class="login">
     <h1>Notification Manager</h1>
-    <div id="google-signin-btn" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-    <a href="#" v-on:click="signOut">Sign out</a>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'login',
-  methods: {
-    onSignIn (googleUser) {
+<<<<<<< HEAD
+  methods: function() {
+
+=======
+  data: function() {
+>>>>>>> efcac72429037ea270fd7a066ae5a9acc6b7a596
+    function onSignIn(googleUser) {
       console.log('Google Auth Response', googleUser);
       // We need to register an Observer on Firebase Auth to make sure auth is initialized.
       var unsubscribe = firebase.auth().onAuthStateChanged(function(firebaseUser) {
@@ -33,21 +37,16 @@ export default {
           });
         } else {
           console.log('User already signed-in Firebase.');
+<<<<<<< HEAD
         }        
       });
-    },
-    signOut () {
-      var auth2 = gapi.auth2.getAuthInstance();
-      auth2.signOut().then(function () {
-        console.log('User signed out.');
+    }
+    
+=======
+        }
       });
-    },
-    mounted() {
-      console.log('mounted');
-      gapi.signin2.render('google-signin-btn', {
-        onsuccess: this.onSignIn
-      })
-    }    
+    }
+>>>>>>> efcac72429037ea270fd7a066ae5a9acc6b7a596
   }
 }
 </script>
